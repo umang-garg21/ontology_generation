@@ -1,0 +1,49 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# External repos / submodules
+segment-anything/
+detectron2/
+dinov2-main/
+
+# Data, images, outputs
+data/
+cutouts/
+output_masks/
+database/
+public/
+
+# Model weights & cache
+model_cache/
+instance-detection_current/
+*.pth
+*.pt
+*.bin
+*.onnx
+*.safetensors
+
+# Images (large binary files)
+*.png
+*.jpg
+*.JPG
+*.jpeg
+*.tif
+*.tiff
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
