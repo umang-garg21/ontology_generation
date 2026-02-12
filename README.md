@@ -1,7 +1,7 @@
-# Big Bee: Wing Ontology and Instance Segmentation
+# Ontology and Instance Segmentation
 
 ## Overview
-Big Bee is a research toolkit for advanced analysis of bee wing images, focusing on robust segmentation, feature extraction, and graph-based ontology generation. The project leverages state-of-the-art models (Segment Anything, DINOv2) to extract meaningful biological and morphological information from high-resolution images of bee wings.
+This is a research toolkit for advanced analysis of images, focusing on robust segmentation, feature extraction, and graph-based ontology generation. The project leverages state-of-the-art models (Segment Anything, DINOv2) to extract meaningful biological and morphological information from high-resolution images of bee wings, as a commom example.
 
 ## Key Features
 - **Automated Instance Segmentation:** Uses Meta's Segment Anything Model (SAM) for precise mask generation of wing cells.
@@ -22,10 +22,10 @@ Big Bee is a research toolkit for advanced analysis of bee wing images, focusing
 3. **Outputs:**
     - Segmentation masks and cutouts in `cutouts/`
     - Embeddings in `output_masks/`
-   # Big Bee: Wing Ontology & Analysis
+   # Ontology & Analysis
 
    ## Project Overview
-   `big-bee` is a toolkit for extracting, representing, and comparing the detailed structure of insect (bee) wings. The pipeline converts high-resolution wing images into graph-based ontologies where:
+   This is a toolkit for extracting, representing, and comparing the detailed structure of insect (bee) wings. The pipeline converts high-resolution wing images into graph-based ontologies where:
 
    - Nodes = segmented wing cells (individual mask regions)
    - Edges = direct adjacency between regions (shared mask boundary)

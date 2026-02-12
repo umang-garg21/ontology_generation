@@ -31,10 +31,6 @@ instance-detection_current/
 *.safetensors
 
 # Images (large binary files)
-*.png
-*.jpg
-*.JPG
-*.jpeg
 *.tif
 *.tiff
 
